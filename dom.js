@@ -51,25 +51,25 @@
 //     newItemByTagName.textContent = "Edited by getElementByTagName";
 //   }
 
-var header = document.querySelector('#main-header');
-header.style.borderBottom = 'solid 4px #ccc'
-var input = document.querySelector('input');
-input.value='Hello World';
+// var header = document.querySelector('#main-header');
+// header.style.borderBottom = 'solid 4px #ccc'
+// var input = document.querySelector('input');
+// input.value='Hello World';
 
-var submit = document.querySelector('input[type="submit"]');
-submit.value="SEND"
+// var submit = document.querySelector('input[type="submit"]');
+// submit.value="SEND"
 
-var second = document.querySelector('.list-group-item:nth-child(2)');
-second.style.backgroundColor="green";
+// var second = document.querySelector('.list-group-item:nth-child(2)');
+// second.style.backgroundColor="green";
 
-var third = document.querySelector('.list-group-item:nth-child(3)');
-third.style.display = 'none';
+// var third = document.querySelector('.list-group-item:nth-child(3)');
+// third.style.display = 'none';
 
 
-// const secondItem = document.querySelector("#items li:nth-child(2)");
-// secondItem.style.color = "green";
+const secondItem = document.querySelector("#items li:nth-child(2)");
+secondItem.style.color = "green";
 
-// const oddItems = document.querySelectorAll("#items li:nth-child(odd)");
-// oddItems.forEach(item => {
-//   item.style.backgroundColor = "green";
-// });
+const oddItems = document.querySelectorAll("#items li:nth-child(odd)");
+oddItems.forEach(item => {
+  item.style.backgroundColor = "green";
+});
